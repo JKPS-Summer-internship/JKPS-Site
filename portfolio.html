@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Work – JKPS Solutions</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="JKPS Solutions" height="38"/>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html" class="active">Work</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://jkps-solution.onrender.com/" class="btn-internship" target="_blank">Our Summer Internship</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Selected projects</span>
+    <h1>Our work</h1>
+    <p>A few of the projects we're proud of. Some clients prefer not to be named publicly — we respect that.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="portfolio-filter">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Apps</button>
+      <button class="filter-btn" data-filter="mobile">Mobile</button>
+      <button class="filter-btn" data-filter="cloud">Cloud</button>
+      <button class="filter-btn" data-filter="security">Security</button>
+    </div>
+
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="web">
+        <div class="pi-image" style="background:#e8f0fe;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">Fintech · Web App</span>
+            <span class="pi-year">2024</span>
+          </div>
+          <h3>Helios Payment Dashboard</h3>
+          <p>Real-time transaction monitoring platform handling 2M+ daily transactions. Built with React, Node.js, and Redis for sub-100ms query times.</p>
+          <div class="pi-outcomes">
+            <span>↓ 40% support tickets</span>
+            <span>↑ 2M+ tx/day</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="mobile">
+        <div class="pi-image" style="background:#e6f4ea;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">Healthcare · Mobile</span>
+            <span class="pi-year">2024</span>
+          </div>
+          <h3>MedTrack Patient Portal</h3>
+          <p>HIPAA-compliant cross-platform app for appointment booking, teleconsultations, and prescription history. React Native with an encrypted SQLite local cache.</p>
+          <div class="pi-outcomes">
+            <span>4.7★ App Store</span>
+            <span>50k+ active users</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="cloud">
+        <div class="pi-image" style="background:#fce8e6;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">Logistics · Cloud Migration</span>
+            <span class="pi-year">2023</span>
+          </div>
+          <h3>Vantex Fleet Management</h3>
+          <p>Migrated a monolithic on-premise system to a microservices architecture on AWS. Added route optimisation engine cutting fuel costs by 23%.</p>
+          <div class="pi-outcomes">
+            <span>↓ 23% fuel costs</span>
+            <span>500+ vehicles tracked</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="security">
+        <div class="pi-image" style="background:#fef9c3;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">SaaS · Security Audit</span>
+            <span class="pi-year">2023</span>
+          </div>
+          <h3>Arcstone Labs – Pre-Series A Security Review</h3>
+          <p>Full penetration test and code review ahead of Series A due diligence. Identified and remediated 14 critical vulnerabilities in 6 weeks.</p>
+          <div class="pi-outcomes">
+            <span>14 CVEs resolved</span>
+            <span>SOC 2 ready</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="web">
+        <div class="pi-image" style="background:#f3e8ff;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">EdTech · Web Platform</span>
+            <span class="pi-year">2023</span>
+          </div>
+          <h3>EduVault LMS</h3>
+          <p>Learning management system for a network of 80 coaching institutes. Features live classes, recorded content, assessments, and automated report cards.</p>
+          <div class="pi-outcomes">
+            <span>80 institutes onboarded</span>
+            <span>200k+ students</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="cloud">
+        <div class="pi-image" style="background:#ecfdf5;"></div>
+        <div class="pi-content">
+          <div class="pi-meta">
+            <span class="work-tag">Manufacturing · Data</span>
+            <span class="pi-year">2022</span>
+          </div>
+          <h3>NovaBridge Operations Dashboard</h3>
+          <p>Real-time analytics platform pulling from 120 IoT sensors across three factories. Built on BigQuery with a custom streaming pipeline.</p>
+          <div class="pi-outcomes">
+            <span>120 sensors integrated</span>
+            <span>↑ 18% OEE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#f8f9fb; text-align:center;">
+  <div class="container" style="max-width:580px; margin:0 auto;">
+    <h2>Have a project in mind?</h2>
+    <p style="margin:1rem 0 2rem;">We're currently taking on new clients for Q3 2025. Get in touch and we'll schedule a call to see if we're a fit.</p>
+    <a href="contact.html" class="btn-primary">Let's talk</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="JKPS Solutions" height="32"/>
+      <p>Simple. Secure. Scalable.</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a><a href="#">Twitter</a><a href="#">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <strong>Company</strong>
+        <a href="about.html">About us</a>
+        <a href="portfolio.html">Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <strong>Services</strong>
+        <a href="services.html#software">Software Dev</a>
+        <a href="services.html#cloud">Cloud</a>
+        <a href="services.html#security">Security</a>
+        <a href="services.html#data">Data & Analytics</a>
+      </div>
+      <div class="footer-col">
+        <strong>Opportunities</strong>
+        <a href="https://jkps-solution.onrender.com/" target="_blank">Summer Internship</a>
+        <a href="careers.html">Full-time Roles</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2025 JKPS Solutions. All rights reserved.</span>
+    <span><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog – JKPS Solutions</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Sora:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <img src="assets/logo.png" alt="JKPS Solutions" height="38"/>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Work</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://jkps-solution.onrender.com/" class="btn-internship" target="_blank">Our Summer Internship</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Insights &amp; writing</span>
+    <h1>Blog</h1>
+    <p>Notes from our team on engineering, security, and building software companies.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container blog-layout">
+    <div class="blog-main">
+
+      <article class="blog-card blog-card-featured">
+        <div class="blog-img" style="background:#e8f0fe; height:240px;"></div>
+        <div class="blog-card-body">
+          <div class="blog-meta">
+            <span class="blog-tag">Engineering</span>
+            <span class="blog-date">March 14, 2025</span>
+          </div>
+          <h2><a href="#">Why we stopped using ORMs for complex queries (and what we use instead)</a></h2>
+          <p>After a particularly painful production incident involving a N+1 query that brought down a client's database at 2am, we started rethinking our default approach to database access. Here's what we learned.</p>
+          <div class="blog-author">
+            <div class="author-avatar small">PS</div>
+            <span>Priya Subramaniam · 8 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Security</span>
+              <span class="blog-date">Feb 28, 2025</span>
+            </div>
+            <h3><a href="#">The 5 security mistakes we see in almost every startup codebase</a></h3>
+            <p>After reviewing hundreds of codebases, certain vulnerabilities keep showing up. Here are the most common ones and how to fix them quickly.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">KR</div>
+              <span>Karthik Rajan · 6 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Cloud</span>
+              <span class="blog-date">Feb 10, 2025</span>
+            </div>
+            <h3><a href="#">How we cut a client's AWS bill by 60% without changing their architecture</a></h3>
+            <p>Rightsizing, reserved instances, and a few configuration changes later, the savings were significant. A case study in cloud cost optimisation.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">JK</div>
+              <span>Jayesh Krishnamurthy · 7 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Process</span>
+              <span class="blog-date">Jan 22, 2025</span>
+            </div>
+            <h3><a href="#">What we've learned from 80+ client projects about scoping software work</a></h3>
+            <p>Scope creep isn't a mystery. It has predictable causes and preventable patterns. Here's our current approach to scoping projects that actually sticks.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">JK</div>
+              <span>Jayesh Krishnamurthy · 5 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Design</span>
+              <span class="blog-date">Jan 8, 2025</span>
+            </div>
+            <h3><a href="#">Internal tools deserve good UX too</a></h3>
+            <p>The assumption that internal users will tolerate bad design is costing companies more than they realise. A case for treating internal tooling as a product.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">SR</div>
+              <span>Sowmya Reddy · 4 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Engineering</span>
+              <span class="blog-date">Dec 19, 2024</span>
+            </div>
+            <h3><a href="#">Postgres full-text search is good enough (for most use cases)</a></h3>
+            <p>Before reaching for Elasticsearch, it's worth knowing how far native Postgres FTS can take you. Further than most people think.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">PS</div>
+              <span>Priya Subramaniam · 9 min read</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-meta">
+              <span class="blog-tag">Career</span>
+              <span class="blog-date">Dec 5, 2024</span>
+            </div>
+            <h3><a href="#">What we actually look for when hiring junior engineers</a></h3>
+            <p>It's not your GPA or which college you went to. Here's what stands out during our hiring process and what we teach interns from day one.</p>
+            <div class="blog-author">
+              <div class="author-avatar small">JK</div>
+              <span>Jayesh Krishnamurthy · 5 min read</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <aside class="blog-sidebar">
+      <div class="sidebar-widget">
+        <h4>Topics</h4>
+        <div class="topic-tags">
+          <a href="#">Engineering</a>
+          <a href="#">Security</a>
+          <a href="#">Cloud</a>
+          <a href="#">Process</a>
+          <a href="#">Design</a>
+          <a href="#">Career</a>
+          <a href="#">Data</a>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <h4>Subscribe</h4>
+        <p>New posts roughly twice a month. No newsletter spam.</p>
+        <div class="sidebar-form">
+          <input type="email" placeholder="your@email.com"/>
+          <button class="btn-primary" style="width:100%; margin-top:.5rem;">Subscribe</button>
+        </div>
+      </div>
+      <div class="sidebar-widget">
+        <h4>Summer Internship</h4>
+        <p>Applications are open. 15 spots across engineering and design roles.</p>
+        <a href="https://jkps-solution.onrender.com/" class="btn-primary" style="display:block; text-align:center; margin-top:.75rem;" target="_blank">Apply now →</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="JKPS Solutions" height="32"/>
+      <p>Simple. Secure. Scalable.</p>
+      <div class="social-links">
+        <a href="#">LinkedIn</a><a href="#">Twitter</a><a href="#">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <strong>Company</strong>
+        <a href="about.html">About us</a>
+        <a href="portfolio.html">Work</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <strong>Services</strong>
+        <a href="services.html#software">Software Dev</a>
+        <a href="services.html#cloud">Cloud</a>
+        <a href="services.html#security">Security</a>
+        <a href="services.html#data">Data & Analytics</a>
+      </div>
+      <div class="footer-col">
+        <strong>Opportunities</strong>
+        <a href="https://jkps-solution.onrender.com/" target="_blank">Summer Internship</a>
+        <a href="careers.html">Full-time Roles</a>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2025 JKPS Solutions. All rights reserved.</span>
+    <span><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
