@@ -62,7 +62,7 @@ document.getElementById('certInput').addEventListener('keydown', function(e) {
 });
 
 document.getElementById('certInput').addEventListener('input', function() {
-  this.value = this.value.toUpperCase();
+  
   resetResults();
 });
 
