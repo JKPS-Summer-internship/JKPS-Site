@@ -175,14 +175,11 @@ if (certInput) {
   });
 
   // Auto-uppercase as user types
-  certInput.addEventListener('input', () => {
-    const pos = certInput.selectionStart;
+certInput.addEventListener('input', () => {
     certInput.value = certInput.value.toUpperCase();
-    certInput.setSelectionRange(pos, pos);
     certInput.style.borderColor = '';
     resetResults();
   });
-}
 
 // Check URL param: verify.html?id=EKX3CJ
 window.addEventListener('DOMContentLoaded', () => {
