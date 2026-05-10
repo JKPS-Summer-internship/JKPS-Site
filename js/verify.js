@@ -14,7 +14,7 @@ const CERT_DATA = {
   "5HCXAP": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: false },
   "EX4JK5": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: false },
   "KU7BV4": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: false },
-  "YB4XN2": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: false },
+  "YB4XN2": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: true },
   "BSLFF6": { name: "Certificate Holder", programme: "Summer Internship 2025", duration: "8 Weeks", issueDate: "July 2025", fileReady: false }
 };
 
