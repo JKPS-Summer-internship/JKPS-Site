@@ -6,16 +6,16 @@
 const CERT_DATA = {
   "EKX3CJ": { name: "B Madan Kumar", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
   "GFUSB2": { name: "C Karthik", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
-  "LDQTDF": { name: "R Dhanush", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
+  "LDQTDF": { name: "R Dhanush", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: true },
   "D6NSUZ": { name: "A Shireesha", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
   "SFLV4P": { name: "Vaddi Anusha", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
   "J8CFEB": { name: "Murugan Santhosh", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
   "EM7RB5": { name: "Sankarappa Nandini", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
-  "5HCXAP": { name: "G Netaji", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
+  "5HCXAP": { name: "G Netaji", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: true },
   "EX4JK5": { name: "P Deepika", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
-  "KU7BV4": { name: "D Pushpanjali Giri", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false },
+  "KU7BV4": { name: "D Pushpanjali Giri", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: true },
   "YB4XN2": { name: "Jayaraj Samuel", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: true },
-  "BSLFF6": { name: "R Devesree", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: false }
+  "BSLFF6": { name: "R Devesree", programme: "Summer Internship 2026", duration: "8 Weeks", issueDate: "July 2026", fileReady: true }
 };
 
 function resetResults() {
